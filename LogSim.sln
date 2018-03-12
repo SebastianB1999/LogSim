@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LogSim", "LogSim\LogSim.pyproj", "{1C9654EA-30F0-40C8-8FD6-2705E7916B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9654EA-30F0-40C8-8FD6-2705E7916B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9654EA-30F0-40C8-8FD6-2705E7916B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4A01CC-88BB-4CCC-BCCC-3C48416C6129}
+	EndGlobalSection
+EndGlobal
