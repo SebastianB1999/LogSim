@@ -41,3 +41,5 @@ class ANDGATE(object):
     def gebeName(self):
         return self.__Name
 
+    def gebeOutput(self):
+        return self.__Output
