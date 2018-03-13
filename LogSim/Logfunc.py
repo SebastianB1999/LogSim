@@ -11,6 +11,9 @@ class ANDGATE(object):
         self.__Output = False
         self.__Name = "AndGate"
         return super().__init__(*args, **kwargs)
+        Name = property(gebeName,setzeName) 
+
+
 
     def execute(self):
         if __Input0 == True:
@@ -26,7 +29,8 @@ class ANDGATE(object):
 
     # property()
 
-    def setzeInput0(self,wert):
+    def setzeInput0(self,value):
+        isinstance(value, bool)
         self.__Input0 = wert
 
     def setzeInput1(self,wert):
@@ -34,6 +38,9 @@ class ANDGATE(object):
 
     def gebeInput0(self):
         return self.__Input0
+
+    def setzeName(self, value):
+        self.__Name = value
 
     def gebeInput1(self):
         return self.__Input1
