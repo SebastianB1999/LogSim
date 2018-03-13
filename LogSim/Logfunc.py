@@ -10,15 +10,19 @@ class ANDGATE(object):
         self.__Input1 = False
         self.__Output = False
         self.__Name = "AndGate"
+        # property
+        self.Name = property(self.gebeName,self.setzeName)
+        self.Input0 = property(self.gebeInput0,self.setzeInput0)
+
         return super().__init__(*args, **kwargs)
-        Name = property(gebeName,setzeName) 
+
 
 
 
     def execute(self):
-        if __Input0 == True:
-            if __Input1 == True:
-                self.__Output = False
+        if self.Input0 == True:
+            if self.Input1 == True:
+                self.Output = False
 
     def show(self):
         print("Die Bedingungen sind: "+__str__(self.__Output))
@@ -27,7 +31,6 @@ class ANDGATE(object):
         return str(wert)
         return super().__str__()
 
-    # property()
 
     def setzeInput0(self,value):
         isinstance(value, bool)
