@@ -7,14 +7,14 @@ class Test_test1(unittest.TestCase):
         a.Input0 = False
         a.Input1 = False
         a.execute()
-        self.assertFalse(a.gebeOutput, "Class ANDGATE: Testcase 1 failed.")
+        self.assertFalse(a.Output, "Class ANDGATE: Testcase 1 failed.")
 
     def testcase_02(self):
         a = ANDGATE()
         a.Input0 = True
         a.Input1 = False
         a.execute()
-        self.assertFalse(a.gebeOutput, "Class ANDGATE: Testcase 2 failed.")
+        self.assertFalse(a.Output, "Class ANDGATE: Testcase 2 failed.")
 
     def testcase_03(self):
         a = ANDGATE()
